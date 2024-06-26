@@ -2,7 +2,6 @@ streamlit
 langchain
 langchain-openai
 langchain_community
-pysqlite3-binary
 tiktoken
 PyPDF2
 faiss-cpu

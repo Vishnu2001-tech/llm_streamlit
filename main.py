@@ -1,5 +1,4 @@
 import streamlit as st
-import sqlite3
 from langchain_openai import OpenAI
 from langchain.chains import RetrievalQA
 from langchain.embeddings.openai import OpenAIEmbeddings
@@ -78,6 +77,6 @@ with st.form(
             result.append(response)
             del open_api_key
 
-            
+
 if len(result):
     st.info(response)            
