@@ -65,7 +65,7 @@ with st.form(
         "Submit",
         disabled = not (uploaded_file and query_text)
     )
-    if submitted and open_api_key.startswitch("ski-"):
+    if submitted and open_api_key.startswith("ski-"):
         with st.spinner(
             "Wait Please, I am working on it..."
         ):
