@@ -61,7 +61,7 @@ with st.form(
         type="password",
         disabled=not (uploaded_file and query_text)
     )
-    submitted = st.form_submit_form(
+    submitted = st.form_submit_button(
         "Submit",
         disabled = not (uploaded_file and query_text)
     )
